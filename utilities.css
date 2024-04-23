@@ -1,0 +1,58 @@
+.flex {
+    display: flex;
+}
+
+.items-centre {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.btn {
+    padding: 9.6px 32px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .2s ease;
+}
+
+.btn-primary {
+    background-color: rgb(157, 72, 102);
+    color: var(--secondary);
+    margin-top: -15rem;
+}
+
+.btn-primary:hover {
+    background: transparent;
+    border-color: rgb(157, 72, 102);
+    color:rgb(157, 72, 102);
+}
+
+.flex-1 {
+    flex: 1;
+    color: rgb(250, 250, 250)
+}
+
+.btn-secondary {
+    background: transparent;
+    color: rgb(157, 72, 102);
+    border-color: rgb(157, 72, 102);
+}
+
+.btn-secondary:hover {
+    background: rgb(157, 72, 102);
+    color: var(--secondary);
+}
