@@ -121,11 +121,11 @@ section.about .socials a {
 }
 
 section.about .socials a:hover {
-    background: var(--primary);
+    background: rgb(157, 72, 102);
 }
 
 section.services {
-    background:rgb(28, 28, 28);
+    background: rgb(28, 28, 28);
 }
 
 .services-head {
@@ -133,11 +133,11 @@ section.services {
     text-align: center;
     margin-bottom: 1rem;
     line-height: 0.5rem;
-    color: var(--primary);
+    color: rgb(157, 72, 102);
 }
 
 .services-head+p {
-    color: var(--white);
+    color:rgb(250, 250, 250);
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
     text-align: center;
@@ -180,12 +180,12 @@ section.services .card-grid .card h2 {
 
 section.services .card-grid .card p {
     font-family: 'Lato', sans-serif;
-    color: var(--seconday);
+    color: rgb(92, 133, 194);
     line-height: 1.6;
 }
 
 section.services .card-grid .card:hover {
-    background: var(--primary);
+    background: rgb(157, 72, 102);
 }
 
 section.services .card-grid .card:hover h2 {
